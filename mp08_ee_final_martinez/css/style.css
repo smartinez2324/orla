@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    cursor: crosshair;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.contenedor{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+h1{
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: Bold;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 4rem;
+  
+}
+
+.ficha{
+    width: 232px;
+    height: 600px;
+    float: left;
+    margin: 10px;
+    position: relative;
+    
+}
+
+.perfil{
+    width: 90%;
+    height: 470px;
+    background: white;
+    position: absolute;
+    margin: auto;
+    top: 130px;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 20px orange;
+}
+
+.foto{
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: orange 2px solid;
+   
+}
+
+.sobre{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 300px;
+    background: linear-gradient(#FFA500,  #FF8C00, #FF7F50);
+}
+
+#foto1{
+    background-image: url(../img/amadaG.jpg);
+    background-size: cover;
+}
+#foto2{
+    background-image: url(../img/adrianN.jpg);
+    background-size: cover;
+}
+#foto3{
+    background-image: url(../img/stephannieM.jpg);
+    background-size: cover;
+}
+#foto4{
+    background-image: url(../img/adrianR.jpg);
+    background-size: cover;
+}
+#foto5{
+    background-image: url(../img/xianR.jpg);
+    background-size: cover;
+}
+#foto6{
+    background-image: url(../img/juliaS.jpg);
+    background-size: cover;
+}
+
+p{
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 900;
+    font-style: normal;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 80px;
+    color: yellow;
+}*/
+
+.perfil:hover{
+    background: plum;
+}
+.ficha:hover > .perfil{
+    height: 600px;
+    transition: 2s;
+    top: -10px;
+
+}
+
+.sobre:hover > h2{
+    font-size: 2.5rem;
+    transition: 1s;
+}
+
